@@ -20,7 +20,6 @@ The application embeds Google Maps using `SupportMapFragment` and configures the
 
 Upon granting permission, the application utilizes `FusedLocationProviderClient` to retrieve the device's real-time GPS coordinates, enables the "My Location" blue dot layer on the map, and smoothly animates the camera to center on the user's location.
 
-Additionally, the interface includes a bottom student details card displaying the student's Name and USN.
 
 ### Scenario
 
@@ -161,7 +160,8 @@ The application launches, initializes the Google Map fragment, and prompts for l
 
 ### Screenshot – Location Permission Request
 
-*(Add your screenshot here)*
+<img width="400" height="660" alt="1000180755" src="https://github.com/user-attachments/assets/f4b32ca9-083a-4652-8d1e-0939721f0740" />
+
 
 ---
 
@@ -190,7 +190,8 @@ The camera animates directly to the user's location and displays the blue locati
 
 ### Screenshot – User Location on Map
 
-*(Add your screenshot here)*
+<img width="400" height="660" alt="1000180756" src="https://github.com/user-attachments/assets/be5a7814-a0b3-4151-b444-6c1cb457dbdd" />
+
 
 ---
 
@@ -219,18 +220,4 @@ The student details card displays the student Name and USN cleanly at the bottom
 
 ### Screenshot – Student Details Display
 
-*(Add your screenshot here)*
-
----
-
-# 📚 Learning Outcomes
-
-After completing this experiment, the following concepts were understood:
-
-* Embedding Google Maps SDK for Android using `SupportMapFragment`.
-* Configuring Google Cloud API Keys in `AndroidManifest.xml`.
-* Requesting and handling runtime permissions (`ACCESS_FINE_LOCATION` and `ACCESS_COARSE_LOCATION`) using `registerForActivityResult`.
-* Fetching device GPS position using `FusedLocationProviderClient`.
-* Enabling built-in Google Map features like Zoom Controls and My Location layer.
-* Controlling camera positioning and smooth zoom animations using `CameraUpdateFactory`.
-* Designing responsive hybrid layouts combining map fragments and Material design components.
+<img width="400" height="660" alt="1000180757" src="https://github.com/user-attachments/assets/ea3e7bb3-916f-41fa-9f53-4bea527333c8" />
